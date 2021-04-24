@@ -50,12 +50,12 @@ class Settings(context: Context) {
          * [example-mobile-backend](https://github.com/stripe/example-mobile-backend),
          * the URL will be something like `https://hidden-beach-12345.herokuapp.com/`.
          */
-        private const val BASE_URL = "put your base url here"
+        private const val BASE_URL = "https://teststripepaymentandroid.herokuapp.com/"
 
         /**
          * Set to publishable key from https://dashboard.stripe.com/test/apikeys
          */
-        private const val PUBLISHABLE_KEY = "pk_test_your_key_goes_here"
+        private const val PUBLISHABLE_KEY = "pk_test_51IjnZyEC1MAGyhUHqt1Zd0AUrPu2uRMlOwTYflQpGzaB9J6NvdLJwrNLyzTpXOLzU3u3IdiFUJcIR8YtTZSOr7qt005SLJveU9"
 
         /**
          * Optionally, set to a Connect Account id to use for API requests to test Connect
